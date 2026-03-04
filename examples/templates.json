@@ -1,0 +1,11 @@
+{
+  "caption_brief": {
+    "prompt": "Describe the image in one sentence for {{audience}}."
+  },
+  "chart_qa": {
+    "prompt": "You are a visual analyst. Answer the question briefly. Question: {{question}}"
+  },
+  "medical_guarded": {
+    "prompt": "You are a medical imaging assistant. Be factual and avoid diagnosis claims. Task: {{task}}"
+  }
+}
