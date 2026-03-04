@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mm-router-lab"
+version = "0.1.0"
+description = "Unified routing layer for multimodal LLM providers"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Alina Lopez"}]
+license = {text = "MIT"}
+dependencies = []
+
+[project.scripts]
+mm-router-lab = "mm_router_lab.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
